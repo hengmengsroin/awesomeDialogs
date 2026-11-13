@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 ///Main button with press animation effect base on elevated button from flutter
 ///with 0 elevation
@@ -6,7 +6,7 @@ class AnimatedButton extends StatefulWidget {
   ///Constructor
   const AnimatedButton({
     required this.pressEvent,
-    Key? key,
+    super.key,
     this.text,
     this.icon,
     this.color,
@@ -15,7 +15,7 @@ class AnimatedButton extends StatefulWidget {
     this.width = double.infinity,
     this.borderRadius,
     this.buttonTextStyle,
-  }) : super(key: key);
+  });
 
   /// Function to execute when button is pressed
   final void Function() pressEvent;

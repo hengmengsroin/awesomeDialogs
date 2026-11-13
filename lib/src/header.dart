@@ -1,6 +1,6 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:awesome_dialog/src/anims/rive_anim.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 ///Header of the [AwesomeDialog]
 class AwesomeDialogHeader extends StatelessWidget {
@@ -8,8 +8,8 @@ class AwesomeDialogHeader extends StatelessWidget {
   const AwesomeDialogHeader({
     required this.dialogType,
     required this.loop,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   ///Defines the type of [AwesomeDialogHeader]
   final DialogType dialogType;

@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:rive/rive.dart';
 
 ///RiveRuntimeRender
@@ -8,8 +8,8 @@ class RiveAssetAnimation extends StatefulWidget {
   const RiveAssetAnimation({
     required this.assetPath,
     required this.animName,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   ///Path of the .riv assets file
   final String assetPath;
