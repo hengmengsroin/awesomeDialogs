@@ -1,5 +1,5 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 void main() => runApp(const MyApp());
 
@@ -9,10 +9,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Fancy Dialog Example',
-        theme: ThemeData.dark(),
-        initialRoute: '/',
-        home: HomePage());
+      title: 'Fancy Dialog Example',
+      theme: ThemeData.dark(),
+      initialRoute: '/',
+      home: HomePage(),
+    );
   }
 }
 

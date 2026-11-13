@@ -1,6 +1,6 @@
 // ignore_for_file: public_member_api_docs
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 ///Main widget to render dialog UI
 class VerticalStackDialog extends StatelessWidget {
@@ -8,7 +8,7 @@ class VerticalStackDialog extends StatelessWidget {
     required this.header,
     required this.padding,
     required this.onClose,
-    Key? key,
+    super.key,
     this.title,
     this.titleStyle,
     this.desc,
@@ -28,7 +28,7 @@ class VerticalStackDialog extends StatelessWidget {
     this.borderRadius,
     this.bodyHeaderDistance = 15.0,
     this.reverseBtnOrder = false,
-  }) : super(key: key);
+  });
   final String? title;
   final TextStyle? titleStyle;
   final String? desc;
@@ -153,8 +153,8 @@ class VerticalStackDialog extends StatelessWidget {
                                 if (btnOk != null)
                                   Expanded(
                                     child: btnOk!,
-                                  )
-                              ]
+                                  ),
+                              ],
                             ],
                           ),
                         ),

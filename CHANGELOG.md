@@ -1,6 +1,7 @@
 ## [3.3.0] - 30/09/2025
 
-* Upgrade rive dependencies to rive: ^0.14.0-dev.8
+* Migrate to standalone `material_ui` (Flutter 3.50).
+* Upgrade rive to `0.15.0-dev.4` (aligned with `material_ui` migration).
 
 ## [3.2.1] - 30/04/2024
 

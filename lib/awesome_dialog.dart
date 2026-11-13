@@ -2,8 +2,8 @@ import 'package:awesome_dialog/src/animated_button.dart';
 import 'package:awesome_dialog/src/anims/native_animations.dart';
 import 'package:awesome_dialog/src/header.dart';
 import 'package:awesome_dialog/src/vertical_stack_header_dialog.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:material_ui/material_ui.dart';
 
 export 'src/animated_button.dart';
 export 'src/anims/native_animations.dart';

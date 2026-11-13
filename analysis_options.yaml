@@ -7,3 +7,5 @@ analyzer:
     implicit-dynamic: false
   errors:
     invalid_assignment: error
+  exclude:
+    - build/**
